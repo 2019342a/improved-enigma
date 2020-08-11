@@ -20,11 +20,11 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    - name: Install dependencies
-      run: pip install -r requirements/local.txt
+    - name: Start docker
+      run: docker-compose up -d
 
     - name: Run migrations
-      run: python manage.py migrate
+      run: docker-compose exec web python manage.py migrate
 
     - name: Run the test suite
-      run: pytest
+      run: docker-compose exec web pytest
