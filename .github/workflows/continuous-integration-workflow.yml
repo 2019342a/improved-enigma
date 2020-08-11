@@ -33,4 +33,4 @@ jobs:
       run: docker-compose exec -T web python manage.py migrate
 
     - name: Run the test suite
-      run: docker-compose exec web pytest
+      run: docker-compose exec -T web pytest
