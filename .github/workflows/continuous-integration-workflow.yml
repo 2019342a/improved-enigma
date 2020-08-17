@@ -40,6 +40,14 @@ jobs:
 
     - name: psycopg2 prerequisites
       run: sudo apt-get install python-dev libpq-dev
+    
+    - name: Cache
+      uses: actions/cache@v2.1.0
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
       
     - name: Install dependencies
       run: |
