@@ -63,10 +63,7 @@ THIRD_PARTY_APPS = [
     "rest_framework",
 ]
 
-LOCAL_APPS = [
-    "improved_enigma.main.apps.MainConfig",
-    "config.apps.SkorAdminConfig"
-]
+LOCAL_APPS = ["improved_enigma.main.apps.MainConfig", "config.apps.SkorAdminConfig"]
 
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
