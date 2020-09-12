@@ -1,0 +1,31 @@
+a:link, a:visited {
+  color: #433175 !important;
+}
+
+#header{
+  background: #66023c;
+  color: #000;
+}
+#header a:link, #header a:visited {
+  color: #f5dd5d !important;
+}
+
+.breadcrumbs{
+  background: #7e044b !important;
+}
+
+caption {
+  background: #66023c !important;
+}
+
+caption a:link, caption a:visited {
+  color: #fff !important;
+}
+
+.breadcrumbs a:link, .breadcrumbs a:visited {
+  color: #fff !important;
+}
+
+#user-tools {
+  color: #fff;
+}
