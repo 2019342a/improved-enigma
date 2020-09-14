@@ -10,3 +10,11 @@ A playground for django admin related things
 
 :License: MIT
 
+What is it?
+-----------
+Dummy project to play around with the django admin. Currently has the following things:
+
+- Dummy models
+- Dummy admin pages
+- Custom admin site
+- Custom base admin template to play around with the style
