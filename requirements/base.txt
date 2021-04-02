@@ -1,6 +1,6 @@
 
 # Django
 django==3.1.7 # https://www.djangoproject.com/
-djangorestframework==3.12.2  # https://github.com/encode/django-rest-framework
+djangorestframework==3.12.4  # https://github.com/encode/django-rest-framework
 django-model-utils==4.1.1  # https://github.com/jazzband/django-model-utils
 django-environ==0.4.5  # https://github.com/joke2k/django-environ
