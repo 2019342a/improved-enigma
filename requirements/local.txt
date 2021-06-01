@@ -16,4 +16,4 @@ factory-boy==3.2.0  # https://github.com/FactoryBoy/factory_boy
 # Code quality
 flake8==3.9.1  # https://github.com/PyCQA/flake8
 coverage==5.5  # https://github.com/nedbat/coveragepy
-black==21.4b2  # https://github.com/ambv/black
+black==21.5b2  # https://github.com/ambv/black
